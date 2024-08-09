@@ -1,9 +1,9 @@
 # BlackHat-USA-2024
 
-Title
+Title:
 Let the Cache Cache and Let the WebAssembly Assemble: Knockin' on Chrome's Shell
 
-Abstract
+Abstract:
 
 It is becoming increasingly challenging to exploit the Chrome browser with V8 JavaScript engine vulnerabilities. This is mainly due to the efforts of the V8 team constantly improving V8 security. In particular, there is a new in-process sandbox for V8 called V8 Sandbox, which is designed to prevent memory corruption vulnerabilities in the V8 engine from successful code executions even when exploitation primitives are available inside the V8 Sandbox. Recently, the V8 Sandbox beta version was officially released in Chrome M123, which introduced significant improvements that fundamentally broke all publicly disclosed escape techniques and their potential variants, making the V8 exploitation significantly more difficult.
 
